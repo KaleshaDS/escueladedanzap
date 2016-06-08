@@ -1,0 +1,169 @@
+#portada{
+	background-image:url("../img/dance_7.jpg"); /*Fonde del encabezado*/
+	background-size:cover;
+	width: 100%;
+	min-height: 350px;
+}
+/*Sobre los profes*/
+.opacitydiv{
+	background-color:#1C1C1C;
+	opacity: 0.5;
+	color: #FFFFFF;
+	height: 200px;
+	width:  400px;
+	padding:20px 40px;
+	position: relative;	
+	left: 380px;
+	top: 100px;
+
+}
+.big{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 20px;
+
+}
+.about{
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	top:40px;
+}
+/*Sobre los pilares*/
+.cube{
+	background-image:url("../img/cubes.png"); 
+ 	background-attachment: fixed;
+ 	background-size: auto;
+ 	height: 350px;
+ }
+.pilar{
+	opacity: 0.5;
+	text-align: center;
+	border-bottom: 1px solid #6E6E6E;
+	width: 250px;
+	position: relative;
+	left: 35px;
+}
+.pilartext{
+	opacity: 0.5;
+	text-align:center;
+	font-size: 14px;
+	padding:0 50px 0 50px;
+	width: 50;
+	height: 50px;
+	margin-top: 10px;
+}
+
+/*los profes*/
+.size{
+	height: 450px;
+}
+#instructo{
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	left: 80px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#profesor1{
+	background-image: url("../img/profesor_4.jpg");
+	height: 200px;
+	width:250px;
+	background-position: top;  /*mueve la imagen dentro del div*/
+	background-size: 100% auto; /*ajusta el tamaño*/
+	display: block;
+    margin: auto;	 
+   	
+}
+#profesor2{
+	background-image: url("../img/profesor_14.jpg");
+	height: 200px;
+	width:250px;
+	background-position:top; 
+	background-size: 100% auto;
+	display: block;
+    margin: auto;
+}
+
+#profesor3{
+	background-image: url("../img/profesor_1.jpg");
+	height: 200px;
+	width:250px;
+	background-position: top;
+	background-size: 100%;
+	display: block;
+    margin: auto;
+}
+#profesor4{
+	background-image: url("../img/profesor_10.jpg.");
+	height: 200px;
+	width:250px;
+	background-position: right;
+	background-size: 100%;
+	display: block;
+    margin: auto;
+}
+#profesor5{
+	background-image: url("../img/profesor_11.jpg.");
+	height: 200px;
+	width:250px;
+	background-position: top;
+	background-size: 100%;
+	display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#profesor6{
+	background-image: url("../img/profesor_12.jpg.");
+	height: 200px;
+	width:250px;
+	background-position: top;
+	background-size: 100%;
+	display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#profesor7{
+	background-image: url("../img/profesor_9.jpg");
+	height: 200px;
+	width:250px;
+	background-position: right;
+	background-size: 110%;
+	display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#profesor8{
+	background-image: url("../img/profesor_15.jpg.");
+	height: 200px;
+	width:250px;
+	background-position: right;
+	background-size: 110%;
+	display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+  }
+
+ .infoprofe{
+ 	position: absolute;
+ 	top: 390px;
+ 	margin-bottom: 20px;
+ 	width: 250px;
+ }
+
+ .infoprofe2{
+ 	position: relative;
+ 	top: 220px;
+ 	margin-bottom: 200px;
+ }
+

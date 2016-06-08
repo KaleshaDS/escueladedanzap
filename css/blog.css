@@ -1,0 +1,47 @@
+
+.texture{
+	background-color:#E0ECF8;
+	z-index: -1;
+ }
+.imgconfig{
+ 	width: 200px;
+ 	height: 200px;
+ 	position: absolute;
+ }
+ .article{
+ 	background-color: #D8CEF6;
+ 	width: 1000px;
+ 	height: 200px;
+ 	margin:30px;
+ 	position: relative;
+ 	left: 50px;
+ }
+ .articletxt{
+ 	width: 800px;
+ 	height: 200px;
+ 	margin-top: 30px;
+ 	float: right;
+ 	padding-left: 30px;
+ 	font-size: 12px;
+}
+.date{
+	opacity: 0.5;
+}
+/*boton de articulos*/
+  .boton{       
+	width: 200px;
+	height: 40px;
+    background: #0A0A2A;
+   	text-align: center;
+  	margin-top: 15px;
+  	border: 1px solid #0A0A2A;
+  	border-radius: 5px;
+
+ }
+ .boton a{
+  	text-decoration: none;
+ 	font-size: 14px;
+ 	color:#FFFFFF;
+ 	position: relative;	
+ 	top: 10px;
+ }
